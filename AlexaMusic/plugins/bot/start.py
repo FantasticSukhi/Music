@@ -94,7 +94,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/Shayri_Music_Lovers) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/SUKHRITA) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -280,15 +280,15 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/125f531d44a9999290cac.jpg",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ᴀʟᴇxᴀ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴇxᴀ ʜᴇʟᴘ](https://t.me/Alexa_BotUpdates)┓\n┣★ ʀᴇᴘᴏ › : [ᴀʟᴇxᴀ ʀᴇᴘᴏ](https://github.com/jankarikiduniya/AlexaMusic)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Jankari_Ki_Duniya) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
+        photo="https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ɢᴀʀᴜᴅ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ɢᴀʀᴜᴅ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ɢᴀʀᴜᴅ](https://t.me/GARUD_OWNER)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ɢᴀʀᴜᴅ ʜᴇʟᴘ](https://t.me/GARUD_NETWORK)┓\n┣★ ʀᴇᴘᴏ › : [ɢᴀʀᴜᴅ ʀᴇᴘᴏ](https://t.me/GARUD_OWNER)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/GARUD_OWNER) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 ᴀʟᴇxᴀ ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
+            [[InlineKeyboardButton("🌼 ɢᴀʀᴜᴅ ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
         ),
     )
 
 
-@app.on_message(commandpro(["/verify", "alexaverification"]))
+@app.on_message(commandpro(["/verify", "garudverification"]))
 async def verify(client, message: Message):
     if await is_served_user(message.from_user.id):
         await message.reply_text(
@@ -297,9 +297,9 @@ async def verify(client, message: Message):
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo="https://telegra.ph/file/7f08acd78577f99f60ff5.png",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ᴀʟᴇxᴀ ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
+        photo="https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ɢᴀʀᴜᴅ ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 ᴀʟᴇxᴀ ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
+            [[InlineKeyboardButton("🌼 ɢᴀʀᴜᴅ ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
         ),
     )
