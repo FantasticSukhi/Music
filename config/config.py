@@ -25,9 +25,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "999999999999999"))
 
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "99999999999999"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
@@ -41,15 +41,15 @@ BOT_ID = getenv("BOT_ID")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheTeamAlexa/AlexaMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/FantasticSukhi/Xmusic")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alexa_BotUpdates")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GARUD_NETWORK")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alexa_Help")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/GARUD_SUPPORT")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -67,7 +67,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamAlexa/AlexaMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/GARUD_OWNER")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 
@@ -108,67 +108,67 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/d593c6064ff7657d0c714.jpg"
+    "START_IMG_URL", "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "assets/Audio.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "assets/Soundcloud.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "assets/Youtube.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "assets/SpotifyArtist.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "assets/SpotifyAlbum.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "assets/SpotifyPlaylist.jpeg",
+    "https://media-hosting.imagekit.io//29c440e1c11a483f/Leonardo_Phoenix_09_A_futuristic.png?Expires=1835940922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mLurawjT-Bi9EidlFkD41nejDH4f2Ujb6IoXtfJ1IE6WFCx~CR6k3CAa3GKthkzdEC9X8KzK0qY6IlglWoMgAiuuWon4U3hwZdwYIsKH~~0tDnCqCYxTbvX9c7EfrBiBA4ozpvYLOUu-cg0H5OK1~9P4J0~my81p06nBRfA3nEFHFyL4tUQAaXj-Xd6glONZUTMKow93sAQptovx5aiOxdJuqFRJtnm3knpSaSVm~SAUGcYPkWJm3IyPXVXzh7EPRe4olWtWgF~-m8ixdWxSEkVDYdvmXq4RfgEp0Q1QEqauNi2B-O-9P1F1dE0Y68E3ndllLlY1mBWEqK44qr75Gw__",
 )
 
 
