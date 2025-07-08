@@ -153,7 +153,7 @@ sudo pip3 install -U pip
 
 **4. Clone the Repository**
 ```bash
-git clone https://github.com/TheTeamAlexa/AlexaMusic && cd AlexaMusic
+git clone https://github.com/FantasticSukhi/Music && cd Music
 ```
 
 **5. Install Python Requirements**
@@ -209,7 +209,7 @@ sudo pip3 install -U pip
 
 **4. Clone the Repository**
 ```bash
-git clone https://github.com/TheTeamAlexa/AlexaMusic && cd AlexaMusic
+git clone https://github.com/FantasticSukhiMusic && cd Music
 ```
 
 **5. Install Python Requirements (Ubuntu 24 specific)**
