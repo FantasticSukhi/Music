@@ -121,9 +121,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Alexa_Help")
-                await self.three.join_chat("TheTeamAlexa")
-                await self.three.join_chat("Alexa_BotUpdates")
+                await self.three.join_chat("GARUD_SUPPORT")
+                await self.three.join_chat("OFFICIAL_MAMBA_SUPPORT")
+                await self.three.join_chat("MAMBA_GENUINE_SERVICES_CHAT")
             except Exception:
                 pass
             assistants.append(3)
@@ -149,9 +149,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Alexa_Help")
-                await self.four.join_chat("TheTeamAlexa")
-                await self.four.join_chat("Alexa_BotUpdates")
+                await self.four.join_chat("GARUD_SUPPORT")
+                await self.four.join_chat("OFFICIAL_MAMBA_SUPPORT")
+                await self.four.join_chat("MAMBA_GENUINE_SERVICES_CHAT")
             except Exception:
                 pass
             assistants.append(4)
@@ -177,9 +177,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("Alexa_Help")
-                await self.five.join_chat("TheTeamAlexa")
-                await self.five.join_chat("Alexa_BotUpdates")
+                await self.five.join_chat("GARUD_SUPPORT")
+                await self.five.join_chat("OFFICIAL_MAMBA_SUPPORT")
+                await self.five.join_chat("MAMBA_GENUINE_SERVICES_CHAT")
             except Exception:
                 pass
             assistants.append(5)
